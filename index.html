@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ammar Shams | Data Analyst Portfolio</title>
+
+    <!-- SEO & Metadata -->
+    <meta name="description"
+        content="Ammar Shams — Data Analyst focused on Data Analysis, Power BI, Excel, Business Insights, and Data Visualization.">
+    <meta name="keywords"
+        content="Data Analyst, Ammar Shams, Power BI, Excel, SQL, Python, DAX, Data Storytelling, Business Insights">
+    <meta name="author" content="Ammar Shams">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Ammar Shams | Data Analyst Portfolio">
+    <meta property="og:description"
+        content="Data Analyst focused on transforming raw data into clear insights, interactive dashboards, and meaningful business stories.">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts: Plus Jakarta Sans, Inter & IBM Plex Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Primary Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-grid-pattern">
+
+    <!-- Sticky Navigation -->
+    <header class="nav-header" id="nav-header">
+        <div class="container nav-container">
+            <a href="#hero" class="brand-logo">
+                <span class="brand-mark"></span>
+                AMMAR SHAMS
+            </a>
+
+            <div class="nav-right-group">
+                <div class="status-pill">
+                    <span class="status-dot"></span>
+                    Available for opportunities
+                </div>
+
+                <nav>
+                    <ul class="nav-links-wrapper">
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#toolkit" class="nav-link">Skills</a></li>
+                        <li><a href="#training" class="nav-link">Training</a></li>
+                        <li><a href="#projects" class="nav-link">Projects</a></li>
+                        <li><a href="#experience" class="nav-link">Experience</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-grid">
+                <div class="hero-content reveal-on-scroll">
+                    <!-- Integrated Profile Avatar Badge -->
+                    <div class="hero-profile-card">
+                        <div class="profile-avatar-wrapper">
+                            <img src="assets/images/ammar-shams.jpg" alt="Ammar Shams - Data Analyst"
+                                class="profile-avatar-img">
+                        </div>
+                        <div class="profile-info-text">
+                            <div class="profile-name">AMMAR SHAMS</div>
+                            <div class="profile-title">Data Analyst &amp; Business Intelligence</div>
+                        </div>
+                    </div>
+
+                    <div class="section-label hero-tag">
+                        <span class="tag-mono">DATA ANALYST / DATA STORYTELLING / BUSINESS INSIGHTS</span>
+                    </div>
+
+                    <h1 class="hero-headline">Turning Data Into <span>Decisions.</span></h1>
+
+                    <p class="hero-subtitle">
+                        Data Analyst focused on transforming raw data into clear insights, interactive dashboards, and
+                        meaningful business stories.
+                    </p>
+
+                    <div class="hero-cta-group">
+                        <a href="#projects" class="btn-primary">
+                            View My Work
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn-secondary">
+                            Let's Connect
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Editorial Visual Poster Component -->
+                <div class="hero-visual-frame reveal-on-scroll">
+                    <div class="hero-visual-header">
+                        <span>DATA • ANALYSIS • INSIGHTS • DECISIONS</span>
+                        <span style="color: var(--accent-emerald);">[ SYS_VERIFIED ]</span>
+                    </div>
+
+                    <div class="hero-svg-wrapper">
+                        <svg viewBox="0 0 600 400" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="600" height="400" fill="#0B0F0C" />
+
+                            <!-- Grid lines -->
+                            <line x1="50" y1="50" x2="550" y2="50" stroke="#1F2E24" stroke-width="1" />
+                            <line x1="50" y1="130" x2="550" y2="130" stroke="#1F2E24" stroke-width="1" />
+                            <line x1="50" y1="210" x2="550" y2="210" stroke="#1F2E24" stroke-width="1" />
+                            <line x1="50" y1="290" x2="550" y2="290" stroke="#1F2E24" stroke-width="1" />
+                            <line x1="50" y1="370" x2="550" y2="370" stroke="#1F2E24" stroke-width="1" />
+
+                            <line x1="150" y1="50" x2="150" y2="370" stroke="#1F2E24" stroke-width="1"
+                                stroke-dasharray="4 4" />
+                            <line x1="300" y1="50" x2="300" y2="370" stroke="#1F2E24" stroke-width="1"
+                                stroke-dasharray="4 4" />
+                            <line x1="450" y1="50" x2="450" y2="370" stroke="#1F2E24" stroke-width="1"
+                                stroke-dasharray="4 4" />
+
+                            <!-- Primary Line Graph -->
+                            <path d="M 50 280 Q 150 180, 250 230 T 450 120 T 550 90" fill="none" stroke="#22C55E"
+                                stroke-width="4" />
+
+                            <!-- Secondary Benchmark Line -->
+                            <path d="M 50 320 Q 200 300, 350 220 T 550 160" fill="none" stroke="#8E9F94"
+                                stroke-width="2" stroke-dasharray="6 4" />
+
+                            <circle cx="450" cy="120" r="7" fill="#F0FDF4" />
+                            <circle cx="450" cy="120" r="14" fill="none" stroke="#22C55E" stroke-width="2" />
+
+                            <rect x="370" y="55" width="150" height="45" fill="#131A16" rx="6" stroke="#22C55E"
+                                stroke-width="1" />
+                            <text x="385" y="77" font-family="IBM Plex Mono, monospace" font-size="11" fill="#F0FDF4"
+                                font-weight="600">RETENTION OPTIMAL</text>
+                            <text x="385" y="92" font-family="Plus Jakarta Sans, sans-serif" font-size="12"
+                                fill="#22C55E" font-weight="700">+26.86% CHURN SIG</text>
+
+                            <text x="55" y="42" font-family="IBM Plex Mono, monospace" font-size="10"
+                                fill="#8E9F94">VAL: 1,470 HEADCOUNT</text>
+                            <text x="440" y="42" font-family="IBM Plex Mono, monospace" font-size="10"
+                                fill="#8E9F94">SAMPLE: 6,687 CUST</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hero Metrics Strip -->
+        <section class="hero-metrics-strip">
+            <div class="container">
+                <div class="metrics-grid">
+                    <div class="metric-card reveal-on-scroll">
+                        <div class="metric-number" data-target="1470" data-is-percent="false">0</div>
+                        <div class="metric-label">Employees analyzed</div>
+                        <div class="metric-subtext">Atlas Lab HR Analytics Dataset</div>
+                    </div>
+
+                    <div class="metric-card reveal-on-scroll">
+                        <div class="metric-number" data-target="6687" data-is-percent="false">0</div>
+                        <div class="metric-label">Customers analyzed</div>
+                        <div class="metric-subtext">Telecom Churn Behavior Model</div>
+                    </div>
+
+                    <div class="metric-card reveal-on-scroll">
+                        <div class="metric-number" data-target="26.86" data-is-percent="true">0%</div>
+                        <div class="metric-label">Observed churn rate</div>
+                        <div class="metric-subtext">Verified Retention Opportunity</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 01: ABOUT & EDUCATION -->
+        <section class="section-padding" id="about">
+            <div class="container">
+                <div class="section-header-block reveal-on-scroll">
+                    <div class="section-label">
+                        <span class="tag-mono">01 / ABOUT</span>
+                    </div>
+                    <h2 class="section-headline">I turn raw data into stories people can act on.</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-narrative reveal-on-scroll">
+                        <p>
+                            I am a fourth-year Information Systems student with a strong analytical focus on
+                            transforming unorganized datasets into clear visual dashboards, actionable business
+                            insights, and structured decisions.
+                        </p>
+                        <p>
+                            Rather than simply generating charts, I approach data from a problem-solving perspective:
+                            identifying churn risks in customer bases, pinpointing attrition factors in workforce
+                            demographics, and uncovering profit margin opportunities in sales operations.
+                        </p>
+
+                        <div class="about-focus-tags">
+                            <span class="focus-tag">Data Analysis</span>
+                            <span class="focus-tag">Data Visualization</span>
+                            <span class="focus-tag">Business Insights</span>
+                            <span class="focus-tag">Problem Solving</span>
+                            <span class="focus-tag">Continuous Learning</span>
+                            <span class="focus-tag">Teamwork</span>
+                            <span class="focus-tag">Communication</span>
+                        </div>
+                    </div>
+
+                    <!-- Editorial Side Stack (Portrait + Education) -->
+                    <div class="about-side-stack reveal-on-scroll">
+                        <div class="about-portrait-card">
+                            <img src="assets/images/ammar-shams.jpg" alt="Ammar Shams Data Analyst Portrait"
+                                class="about-portrait-img">
+                            <div class="portrait-badge">
+                                <span class="status-dot"></span>
+                                AMMAR SHAMS / DATA ANALYST
+                            </div>
+                        </div>
+
+                        <!-- Education Timeline Card -->
+                        <div class="education-card">
+                            <span class="edu-badge">ACADEMIC BACKGROUND</span>
+                            <h3 class="edu-institution">Misr Higher Institute For Commerce &amp; Computers</h3>
+                            <div class="edu-degree">Information Systems</div>
+
+                            <ul class="edu-meta-list">
+                                <li class="edu-meta-item">
+                                    <span>Academic Status</span>
+                                    <span>Fourth Year</span>
+                                </li>
+                                <li class="edu-meta-item">
+                                    <span>Expected Graduation</span>
+                                    <span>2027</span>
+                                </li>
+                                <li class="edu-meta-item">
+                                    <span>Specialization</span>
+                                    <span>Data &amp; Systems Analysis</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 02: TOOLKIT (SKILLS) -->
+        <section class="section-padding" id="toolkit">
+            <div class="container">
+                <div class="section-header-block reveal-on-scroll">
+                    <div class="section-label">
+                        <span class="tag-mono">02 / TOOLKIT</span>
+                    </div>
+                    <h2 class="section-headline">Grouped analytical capabilities &amp; technical tools.</h2>
+                </div>
+
+                <div class="skills-grouped-grid">
+                    <!-- Group 1: Data Analysis -->
+                    <div class="skill-category-card reveal-on-scroll">
+                        <div class="skill-category-header">
+                            <span class="skill-category-number">01</span>
+                            <h3 class="skill-category-title">Data Analysis</h3>
+                        </div>
+                        <div class="skills-pill-list">
+                            <span class="skill-pill">Microsoft Excel</span>
+                            <span class="skill-pill">SQL</span>
+                            <span class="skill-pill">Python</span>
+                            <span class="skill-pill">Pandas</span>
+                            <span class="skill-pill">NumPy</span>
+                            <span class="skill-pill">Statistics</span>
+                        </div>
+                    </div>
+
+                    <!-- Group 2: Business Intelligence -->
+                    <div class="skill-category-card reveal-on-scroll">
+                        <div class="skill-category-header">
+                            <span class="skill-category-number">02</span>
+                            <h3 class="skill-category-title">Business Intelligence</h3>
+                        </div>
+                        <div class="skills-pill-list">
+                            <span class="skill-pill">Power BI</span>
+                            <span class="skill-pill">DAX</span>
+                            <span class="skill-pill">Power Query</span>
+                        </div>
+                    </div>
+
+                    <!-- Group 3: Visualization -->
+                    <div class="skill-category-card reveal-on-scroll">
+                        <div class="skill-category-header">
+                            <span class="skill-category-number">03</span>
+                            <h3 class="skill-category-title">Visualization</h3>
+                        </div>
+                        <div class="skills-pill-list">
+                            <span class="skill-pill">Power BI</span>
+                            <span class="skill-pill">Excel</span>
+                            <span class="skill-pill">Tableau</span>
+                            <span class="skill-pill">Charts</span>
+                            <span class="skill-pill">Interactive Dashboards</span>
+                        </div>
+                    </div>
+
+                    <!-- Group 4: Analytical Thinking -->
+                    <div class="skill-category-card reveal-on-scroll">
+                        <div class="skill-category-header">
+                            <span class="skill-category-number">04</span>
+                            <h3 class="skill-category-title">Analytical Thinking</h3>
+                        </div>
+                        <div class="skills-pill-list">
+                            <span class="skill-pill">Data Cleaning</span>
+                            <span class="skill-pill">Business Insights</span>
+                            <span class="skill-pill">Problem Solving</span>
+                            <span class="skill-pill">Data Storytelling</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Languages & Work Principles -->
+                <div class="meta-strips-grid">
+                    <div class="languages-box reveal-on-scroll">
+                        <div class="meta-box-title">Languages</div>
+                        <div class="lang-list">
+                            <div class="lang-item">
+                                <span class="lang-name">Arabic</span>
+                                <span class="lang-level">Native</span>
+                            </div>
+                            <div class="lang-item">
+                                <span class="lang-name">English</span>
+                                <span class="lang-level">Good</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="work-style-box reveal-on-scroll">
+                        <div class="meta-box-title">HOW I WORK</div>
+                        <div class="keywords-cloud">
+                            <span class="kw-badge">Problem Solving</span>
+                            <span class="kw-badge">Data Analysis</span>
+                            <span class="kw-badge">Business Insights</span>
+                            <span class="kw-badge">Continuous Learning</span>
+                            <span class="kw-badge">Teamwork</span>
+                            <span class="kw-badge">Communication</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 03: TRAINING -->
+        <section class="section-padding" id="training">
+            <div class="container">
+                <div class="section-header-block reveal-on-scroll">
+                    <div class="section-label">
+                        <span class="tag-mono">03 / TRAINING</span>
+                    </div>
+                    <h2 class="section-headline">Structured professional training &amp; skill development.</h2>
+                </div>
+
+                <div class="training-timeline">
+                    <!-- Training 1 -->
+                    <div class="training-item reveal-on-scroll">
+                        <div class="training-dot"></div>
+                        <div class="training-card">
+                            <h3 class="training-org">Digital Egypt Pioneers Initiative (DEPI)</h3>
+                            <div class="training-field">Data Analysis</div>
+                        </div>
+                    </div>
+
+                    <!-- Training 2 -->
+                    <div class="training-item reveal-on-scroll">
+                        <div class="training-dot"></div>
+                        <div class="training-card">
+                            <h3 class="training-org">NTI × Huawei</h3>
+                            <div class="training-field">Artificial Intelligence</div>
+                        </div>
+                    </div>
+
+                    <!-- Training 3 -->
+                    <div class="training-item reveal-on-scroll">
+                        <div class="training-dot"></div>
+                        <div class="training-card">
+                            <h3 class="training-org">Smart Investment Solutions (SIS)</h3>
+                            <div class="training-field">Data Analysis</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 04: SELECTED WORK (PROJECTS) -->
+        <section class="section-padding" id="projects">
+            <div class="container">
+                <div class="section-header-block reveal-on-scroll">
+                    <div class="section-label">
+                        <span class="tag-mono">04 / SELECTED WORK</span>
+                    </div>
+                    <h2 class="section-headline">Editorial project showcases &amp; analytical deep dives.</h2>
+                </div>
+
+                <div class="projects-stack">
+
+                    <!-- PROJECT 01: ATLAS LAB -->
+                    <article class="project-showcase-card reveal-on-scroll" id="project-atlas-lab">
+                        <div class="project-meta-header">
+                            <span class="project-number-tag">PROJECT 01 / 05</span>
+                            <span class="project-category-badge">HR ANALYTICS / POWER BI</span>
+                        </div>
+
+                        <div class="project-main-grid">
+                            <div class="project-info-side">
+                                <h3 class="project-title">Atlas Lab — HR Analytics &amp; Attrition Dashboard</h3>
+                                <p class="project-description">
+                                    A 4-page HR analytics dashboard analyzing workforce data for <strong>1,470
+                                        employees</strong>, focused on understanding the core organizational factors
+                                    behind employee attrition.
+                                </p>
+
+                                <div class="project-tools-list">
+                                    <span class="tool-tag">Power BI</span>
+                                    <span class="tool-tag">Star Schema</span>
+                                    <span class="tool-tag">DAX</span>
+                                    <span class="tool-tag">USERELATIONSHIP()</span>
+                                    <span class="tool-tag">Data Modeling</span>
+                                </div>
+
+                                <div class="project-metrics-callout">
+                                    <div class="pm-item">
+                                        <span class="pm-val">1,470</span>
+                                        <span class="pm-lbl">Employees</span>
+                                    </div>
+                                    <div class="pm-item">
+                                        <span class="pm-val">16.12%</span>
+                                        <span class="pm-lbl">Attrition Rate</span>
+                                    </div>
+                                    <div class="pm-item">
+                                        <span class="pm-val">237</span>
+                                        <span class="pm-lbl">Departures</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Interactive 4-Image Media Gallery -->
+                            <div class="project-media-side">
+                                <div class="project-image-frame lightbox-trigger" data-project="atlas-lab"
+                                    data-index="0">
+                                    <img id="atlas-main-img" src="assets/images/projects/atlas-lab-overview.jpg"
+                                        alt="Atlas Lab Overview Dashboard">
+                                    <span class="zoom-indicator">Expand Lightbox ⤢</span>
+                                </div>
+
+                                <div class="atlas-gallery-nav">
+                                    <button class="atlas-thumb-btn active" data-index="0">Overview</button>
+                                    <button class="atlas-thumb-btn" data-index="1">Demographics</button>
+                                    <button class="atlas-thumb-btn" data-index="2">Performance</button>
+                                    <button class="atlas-thumb-btn" data-index="3">Attrition</button>
+                                </div>
+                                <div class="image-caption-bar" id="atlas-img-caption">Overview Dashboard — Headcount,
+                                    Attrition Rate &amp; Tenure Metrics</div>
+                            </div>
+                        </div>
+
+                        <!-- Storytelling Breakdown -->
+                        <div class="project-story-grid">
+                            <div class="story-block">
+                                <span class="story-block-label">01 / DASHBOARD SECTIONS</span>
+                                <h4 class="story-block-title">4 Detailed Analytical Pages</h4>
+                                <p>Comprehensive structure covering Overview, Demographics, Performance Tracker, and
+                                    Attrition analysis.</p>
+                            </div>
+
+                            <div class="story-block">
+                                <span class="story-block-label">02 / TECHNICAL WORK</span>
+                                <h4 class="story-block-title">Star-Schema Model</h4>
+                                <p>Employee dimension, Performance Rating fact table, Satisfaction &amp; Rating
+                                    dimensions, Education dimension, and custom DAX measures using
+                                    <code>USERELATIONSHIP()</code>.
+                                </p>
+                            </div>
+
+                            <div class="story-block">
+                                <span class="story-block-label">03 / DAX METRICS</span>
+                                <h4 class="story-block-title">Core Measures</h4>
+                                <p>Calculated Attrition Count, Attrition Rate, Average Attrition Age, and salary
+                                    comparisons between active and departed staff.</p>
+                            </div>
+
+                            <!-- Highlighted Insight Statement -->
+                            <div class="insight-highlight-box">
+                                <div class="story-block-label">KEY INSIGHT</div>
+                                <h4 class="insight-highlight-title">"What actually drives attrition?"</h4>
+                                <p class="insight-highlight-text">
+                                    Employees who left showed a noticeably lower average salary than employees who
+                                    stayed, creating a clear signal worth investigating alongside satisfaction data.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 02: CUSTOMER CHURN POWER BI -->
+                    <article class="project-showcase-card reveal-on-scroll" id="project-churn-pbi">
+                        <div class="project-meta-header">
+                            <span class="project-number-tag">PROJECT 02 / 05</span>
+                            <span class="project-category-badge">CUSTOMER ANALYTICS / POWER BI</span>
+                        </div>
+
+                        <div class="project-main-grid">
+                            <div class="project-info-side">
+                                <h3 class="project-title">Customer Churn Analysis Dashboard</h3>
+                                <p class="project-description">
+                                    Designed to understand why customers leave and identify actionable retention
+                                    opportunities across a telecom customer base.
+                                </p>
+
+                                <div class="project-tools-list">
+                                    <span class="tool-tag">Power BI</span>
+                                    <span class="tool-tag">Data Cleaning</span>
+                                    <span class="tool-tag">DAX</span>
+                                    <span class="tool-tag">Interactive Filters</span>
+                                    <span class="tool-tag">Customer Segmentation</span>
+                                </div>
+
+                                <div class="project-metrics-callout">
+                                    <div class="pm-item">
+                                        <span class="pm-val">6,687</span>
+                                        <span class="pm-lbl">Customers</span>
+                                    </div>
+                                    <div class="pm-item">
+                                        <span class="pm-val">26.86%</span>
+                                        <span class="pm-lbl">Churn Rate</span>
+                                    </div>
+                                </div>
+
+                                <!-- Key Findings Box -->
+                                <div class="key-findings-box">
+                                    <div class="key-findings-title">KEY FINDINGS</div>
+                                    <ul class="key-findings-list">
+                                        <li>Competitors offering better deals or devices were identified as the leading
+                                            churn driver.</li>
+                                        <li>Customers with a higher number of service calls showed significantly higher
+                                            churn.</li>
+                                        <li>Month-to-month contracts had a markedly higher churn rate than one- and
+                                            two-year contracts.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="project-media-side">
+                                <div class="project-image-frame lightbox-trigger" data-project="customer-churn-powerbi"
+                                    data-index="0">
+                                    <img src="assets/images/projects/customer-churn-powerbi.jpg"
+                                        alt="Customer Churn Analysis Power BI Dashboard">
+                                    <span class="zoom-indicator">Expand Lightbox ⤢</span>
+                                </div>
+                                <div class="image-caption-bar">Power BI Customer Churn Dashboard — 6,687 Customers &amp;
+                                    26.86% Churn Benchmark</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 03: CUSTOMER CHURN EXCEL -->
+                    <article class="project-showcase-card reveal-on-scroll" id="project-churn-excel">
+                        <div class="project-meta-header">
+                            <span class="project-number-tag">PROJECT 03 / 05</span>
+                            <span class="project-category-badge">EXCEL / DATA ANALYSIS</span>
+                        </div>
+
+                        <div class="project-main-grid">
+                            <div class="project-info-side">
+                                <h3 class="project-title">Customer Churn Analysis Dashboard — Excel</h3>
+                                <p class="project-description">
+                                    Understand customer churn patterns and transform raw data into clear actionable
+                                    insights using Microsoft Excel workflows.
+                                </p>
+
+                                <div class="project-tools-list">
+                                    <span class="tool-tag">Microsoft Excel</span>
+                                    <span class="tool-tag">Power Query</span>
+                                    <span class="tool-tag">Pivot Tables</span>
+                                    <span class="tool-tag">Interactive Slicers</span>
+                                    <span class="tool-tag">Charts</span>
+                                </div>
+
+                                <div class="insight-highlight-box" style="margin-top: 16px;">
+                                    <div class="story-block-label">ANALYTICAL WORKFLOW</div>
+                                    <p class="insight-highlight-text"
+                                        style="font-family: var(--font-mono); font-size: 0.9rem;">
+                                        Data Cleaning → Analysis → Visualization → Insights
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="project-media-side">
+                                <div class="project-image-frame lightbox-trigger" data-project="customer-churn-excel"
+                                    data-index="0">
+                                    <img src="assets/images/projects/customer-churn-excel.jpg"
+                                        alt="Customer Churn Excel Dashboard">
+                                    <span class="zoom-indicator">Expand Lightbox ⤢</span>
+                                </div>
+                                <div class="image-caption-bar">Excel Customer Churn Dashboard — Power Query, Pivot
+                                    Tables &amp; Slicers</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 04: SUPERSTORE SALES -->
+                    <article class="project-showcase-card reveal-on-scroll" id="project-superstore">
+                        <div class="project-meta-header">
+                            <span class="project-number-tag">PROJECT 04 / 05</span>
+                            <span class="project-category-badge">SALES ANALYTICS / EXCEL</span>
+                        </div>
+
+                        <div class="project-main-grid">
+                            <div class="project-info-side">
+                                <h3 class="project-title">Superstore Sales Analytics Dashboard</h3>
+                                <p class="project-description">
+                                    End-to-end sales performance and profitability analysis using the <strong>Sample
+                                        Superstore 2019</strong> dataset.
+                                </p>
+
+                                <div class="project-tools-list">
+                                    <span class="tool-tag">Microsoft Excel</span>
+                                    <span class="tool-tag">Power Query</span>
+                                    <span class="tool-tag">Calculated Fields</span>
+                                    <span class="tool-tag">Profit Margin</span>
+                                    <span class="tool-tag">Pivot Charts</span>
+                                </div>
+
+                                <div class="key-findings-box">
+                                    <div class="key-findings-title">TECHNICAL &amp; ANALYTICAL WORK</div>
+                                    <ul class="key-findings-list">
+                                        <li>Power Query data cleaning, duplicate removal, and formatting normalization.
+                                        </li>
+                                        <li>Calculated Profit Margin fields across product categories.</li>
+                                        <li>Interactive dashboard filters by Region, Category, Ship Mode, and Order
+                                            Year.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="project-media-side">
+                                <div class="project-image-frame lightbox-trigger" data-project="superstore-sales"
+                                    data-index="0">
+                                    <img src="assets/images/projects/superstore-sales.jpg"
+                                        alt="Superstore Sales Analytics Dashboard">
+                                    <span class="zoom-indicator">Expand Lightbox ⤢</span>
+                                </div>
+                                <div class="image-caption-bar">Superstore Sales Analytics — 2019 Dataset, Profit Margins
+                                    &amp; Regional Slicers</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 05: SALES DASHBOARD -->
+                    <article class="project-showcase-card reveal-on-scroll" id="project-sales-dash">
+                        <div class="project-meta-header">
+                            <span class="project-number-tag">PROJECT 05 / 05</span>
+                            <span class="project-category-badge">SALES ANALYTICS / DATA VISUALIZATION</span>
+                        </div>
+
+                        <div class="project-main-grid">
+                            <div class="project-info-side">
+                                <h3 class="project-title">Sales Performance Dashboard</h3>
+                                <p class="project-description">
+                                    Comprehensive breakdown of Total Sales, Total Profit, Regional distributions, yearly
+                                    sales trends, and individual sales representative performance.
+                                </p>
+
+                                <div class="project-tools-list">
+                                    <span class="tool-tag">Excel</span>
+                                    <span class="tool-tag">Data Visualization</span>
+                                    <span class="tool-tag">Sales Rep Matrix</span>
+                                    <span class="tool-tag">Shipping Distribution</span>
+                                </div>
+                            </div>
+
+                            <div class="project-media-side">
+                                <div class="project-image-frame lightbox-trigger" data-project="sales-dashboard"
+                                    data-index="0">
+                                    <img src="assets/images/projects/sales-dashboard.jpg"
+                                        alt="Sales Performance Dashboard">
+                                    <span class="zoom-indicator">Expand Lightbox ⤢</span>
+                                </div>
+                                <div class="image-caption-bar">Sales Dashboard — Regional Trends, Sales Rep Matrix &amp;
+                                    Shipping Mode Breakdown</div>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 05: EXPERIENCE & PRACTICAL NARRATIVE -->
+        <section class="section-padding" id="experience">
+            <div class="container">
+                <div class="section-header-block reveal-on-scroll">
+                    <div class="section-label">
+                        <span class="tag-mono">05 / EXPERIENCE</span>
+                    </div>
+                    <h2 class="section-headline">Training &amp; Practical Experience.</h2>
+                </div>
+
+                <div class="experience-box reveal-on-scroll">
+                    <h3 class="experience-title">Practical Experience Through Real Projects &amp; Intensive Training
+                    </h3>
+                    <p>
+                        My analytics capability has been developed through hands-on practical project work, intensive
+                        training initiatives (DEPI, NTI x Huawei, SIS), and academic coursework at Misr Higher Institute
+                        For Commerce &amp; Computers.
+                    </p>
+                    <p style="margin-top: 14px;">
+                        By working directly with workforce datasets, customer churn models, and sales records, I have
+                        built a practical understanding of data modeling, DAX measure creation, Power Query ETL, and
+                        strategic business storytelling.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 06: LET'S CONNECT (CONTACT) -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="contact-card reveal-on-scroll">
+                    <div class="section-label">
+                        <span class="tag-mono">06 / LET'S CONNECT</span>
+                    </div>
+
+                    <h2 class="contact-headline">Have a dataset that needs a story?</h2>
+
+                    <p class="contact-subtitle">
+                        I'm always interested in learning, analyzing new problems, and turning data into useful
+                        insights.
+                    </p>
+
+                    <div class="contact-links-grid">
+                        <a href="mailto:Ammarshams802@gmail.com" class="btn-primary">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="2" y="4" width="20" height="16" rx="2" />
+                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                            </svg>
+                            Email Me
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/ammar-shams-el-din-699a72414/" target="_blank"
+                            rel="noopener noreferrer" class="btn-secondary">
+                            LinkedIn
+                        </a>
+
+                        <a href="https://github.com/Ammar-shams" target="_blank" rel="noopener noreferrer"
+                            class="btn-secondary">
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Minimal Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="footer-name">AMMAR SHAMS</span>
+                <span class="footer-title">Data Analyst</span>
+            </div>
+
+            <ul class="footer-links">
+                <li><a href="https://www.linkedin.com/in/ammar-shams-el-din-699a72414/" target="_blank"
+                        rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://github.com/Ammar-shams" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="mailto:Ammarshams802@gmail.com">Email</a></li>
+            </ul>
+
+            <div class="footer-copy">
+                &copy; 2026 Ammar Shams. Data Analyst Portfolio. All rights reserved.
+            </div>
+            <div class="developer-credits">
+                <p class="dev-title">Designed & Developed by <strong>Kamel Ramadan</strong></p>
+                <div class="developer-links">
+                    <a href="https://www.linkedin.com/in/kamel-ramadan-kr/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                    <span class="dot">•</span>
+                    <a href="https://github.com/Kamel-Ahmed7" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                    <span class="dot">•</span>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kamelmando498@gmail.com" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fa-solid fa-envelope"></i> Email
+                    </a>
+                    <span class="dot">•</span>
+                    <a href="https://wa.me/201559346984" target="_blank" rel="noopener noreferrer" class="dev-whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fullscreen Lightbox Modal -->
+    <div class="lightbox-modal" id="lightbox-modal" aria-hidden="true" role="dialog">
+        <div class="lightbox-backdrop"></div>
+        <div class="lightbox-content-wrapper">
+            <button class="lightbox-close-btn" id="lightbox-close" aria-label="Close Lightbox">&times;</button>
+            <button class="lightbox-nav-btn lightbox-prev-btn" id="lightbox-prev" aria-label="Previous Image">‹</button>
+            <button class="lightbox-nav-btn lightbox-next-btn" id="lightbox-next" aria-label="Next Image">›</button>
+
+            <img class="lightbox-img-element" id="lightbox-img" src="" alt="">
+
+            <div class="lightbox-caption-bar">
+                <span id="lightbox-caption"></span>
+                <span id="lightbox-counter" style="color: var(--accent-emerald); font-weight: 700;"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Application Script -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
