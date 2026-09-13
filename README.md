@@ -2,7 +2,7 @@
 
 Welcome to the official portfolio repository for **Ammar Shams**, a Data Analyst dedicated to transforming raw data into meaningful and actionable business insights.
 
-🌐 **Live Demo:** [View Portfolio](https://Ammar-shams.github.io/ammar-shams-portfolio/) *(استبدل الرابط بعد النشر)*
+🌐 **Live Demo:** [View Portfolio](https://kamel-ahmed7.github.io/ammar-shams-portfolio/#projects) 
 
 ---
 
