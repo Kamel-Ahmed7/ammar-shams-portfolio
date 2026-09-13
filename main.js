@@ -13,19 +13,19 @@ const PROJECTS_DATA = [
         imageCount: 4,
         images: [
             {
-                url: "assets/images/projects/atlas-lab-overview.jpg",
+                url: "atlas-lab-overview.jpg",
                 caption: "Overview Dashboard — Headcount, Attrition Rate & Tenure Metrics"
             },
             {
-                url: "assets/images/projects/atlas-lab-demographics.jpg",
+                url: "atlas-lab-demographics.jpg",
                 caption: "Demographics Analysis — Age Band, Gender & Education Breakdown"
             },
             {
-                url: "assets/images/projects/atlas-lab-performance.jpg",
+                url: "atlas-lab-performance.jpg",
                 caption: "Performance Tracker — Job & Environment Satisfaction vs Overtime"
             },
             {
-                url: "assets/images/projects/atlas-lab-attrition.jpg",
+                url: "atlas-lab-attrition.jpg",
                 caption: "Attrition Drivers — Monthly Income Delta & Commute Distance Signal"
             }
         ]
@@ -37,7 +37,7 @@ const PROJECTS_DATA = [
         imageCount: 1,
         images: [
             {
-                url: "assets/images/projects/customer-churn-powerbi.jpg",
+                url: "customer-churn-powerbi.jpg",
                 caption: "Power BI Customer Churn Dashboard — 6,687 Customers & 26.86% Churn Benchmark"
             }
         ]
@@ -49,7 +49,7 @@ const PROJECTS_DATA = [
         imageCount: 1,
         images: [
             {
-                url: "assets/images/projects/customer-churn-excel.jpg",
+                url: "customer-churn-excel.jpg",
                 caption: "Excel Customer Churn Dashboard — Power Query, Pivot Tables & Slicers"
             }
         ]
@@ -61,7 +61,7 @@ const PROJECTS_DATA = [
         imageCount: 1,
         images: [
             {
-                url: "assets/images/projects/superstore-sales.jpg",
+                url: "superstore-sales.jpg",
                 caption: "Superstore Sales Analytics — 2019 Dataset, Profit Margins & Regional Slicers"
             }
         ]
@@ -73,7 +73,7 @@ const PROJECTS_DATA = [
         imageCount: 1,
         images: [
             {
-                url: "assets/images/projects/sales-dashboard.jpg",
+                url: "sales-dashboard.jpg",
                 caption: "Sales Dashboard — Regional Trends, Sales Rep Matrix & Shipping Mode Breakdown"
             }
         ]
